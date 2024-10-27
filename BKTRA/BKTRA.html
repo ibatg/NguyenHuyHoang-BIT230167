@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Verification</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="progress-bar">
+      <a href="#" class="back-arrow"></a>
+      <span>Account verification</span>
+      <span class="status">In Progress</span>
+    </div>
+
+    <div class="form-container">
+      <div class="stepper">
+        <div class="step active">1</div>
+        <div class="step">2</div>
+        <div class="step">3</div>
+        <div class="step">4</div>
+      </div>
+      
+      <h2>Business structure</h2>
+      <p>DigiRoad collects this information to better understand and serve your business.</p>
+
+      <form>
+        <div class="form-group">
+          <label for="email">Business Email</label>
+          <input type="email" id="email" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" placeholder="Phone">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" id="address" placeholder="Address line">
+        </div>
+
+        <div class="form-group inline">
+          <div>
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="City">
+          </div>
+          <div>
+            <label for="zip">Zip</label>
+            <input type="text" id="zip" placeholder="Zip">
+          </div>
+        </div>
+
+        <button type="submit" class="continue-btn">Continue →</button>
+      </form>
+    </div>
+  </div>
+  <!-- Link to the external JavaScript file -->
+<script src="SC.js"></script>
+
+</body>
+</html>
